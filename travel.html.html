@@ -1,0 +1,122 @@
+<html>
+<head>
+<tittle>simple landing page using html&css</tittle>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box ;
+    }
+    header{
+        width:100%;
+        height:100vh;
+        background: url('https://th.bing.com/th?id=OIP.7fOBNiGrJqdkoaVzih0REAHaG8&w=258&h=241&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2');
+        background-size:cover;
+        font-family:Sans-Serif;
+    }
+    nav{
+        width:100%;
+        height:100px;
+        color:white;
+        display:flex;
+        justify-content:space-around ;
+        align-items:center;
+        
+    }
+    .logo{
+        font-size:2em;
+        letter-spacing: 2px;
+    }
+    .menu a{
+        text-decoration:none;
+          padding:10px 20px;
+       color:white;
+       font-size:20px;
+       position:relative;
+        
+    }
+    .menu a:hover{
+       border-bottom:9px solid white;  
+    }
+    .menu a:before {
+        content:'';
+        position:absolute;
+        top:0;
+        left:0;
+        width:0%;
+        height:100%;
+        
+        transition:0.4s linear;
+    }
+    .menu a:hover:before{
+        width:90%;
+         
+    }
+    .register a{
+        text-decoration:none ;
+        color:white;
+        padding:10px 20px;
+        font-size:20px;
+        backgroud:indianred;
+        border-radius:8px;
+
+    }
+    .register a:hover{
+        background-color:transparent ;
+        border:1px solid indianred;
+    }
+    .h-txt{
+        max-width:650px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        text-align:center;
+        color:white;
+    }
+    .h-txt span{
+        letter-spacing:5px;
+    }
+    .h-txt h1{
+        font-size:3.5em;
+    }
+    .h-txt a{
+        text-decoration:none ;
+        background:indianred;
+        color:white;
+        padding:10px 20px;
+        letter-spcing:5px
+        transition:0.4s;
+
+    }
+    .h-txt a:hover{
+        background:transparent;
+        border:1px solid indianred;
+    }
+</style>
+</head>
+<header>
+<nav>
+<div class="logo">
+TRAVEL-X
+</div>
+<div class="menu">
+<a href="#">home</a>
+<a href="#">hill stations</a>
+<a href="#">best offers</a>
+<a href="#">our sites</a>
+<a href="#">contact</a>
+</div>
+<div class="register">
+<a href="#">register</a>
+</div>
+</nav>
+<section class="h-txt">
+<span>enjoy</span>
+<h1>internationa travel agency<h1>
+<br>
+<a href="#">book your trip</a>
+</section>
+</header>
+</body>
+</html>
