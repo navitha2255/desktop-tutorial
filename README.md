@@ -1,5 +1,3 @@
-# Welcome to GitHub Desktop!
+👋 Hi, I'm navitha kotakonda. a passionate frontend developer with a keen eye for creating engaging and intuitive user interfaces. I specialize in crafting modern and responsive web applications to deliver exceptional user experiences.
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
